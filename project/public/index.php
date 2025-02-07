@@ -7,5 +7,8 @@
 </head>
 <body>
 dehdhjevdhevdevdv
+RewriteEngine O
+<?php  include '../app/controllers/test.php' ?>
+
 </body>
 </html>
