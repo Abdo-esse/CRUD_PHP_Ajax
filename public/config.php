@@ -18,7 +18,6 @@ class Connexion
                 self::$password,
             );
             self::$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            echo "3la molana";
             }catch(PDOExeption $exeption)
             {
                 die ( " L'error est " . $exeption->getMessage());
