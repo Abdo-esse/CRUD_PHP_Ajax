@@ -1,6 +1,6 @@
 <?php 
 
-class Utoil{
+class Util{
 
     // method pour la valeur des input 
 public function testInput($data){
